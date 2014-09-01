@@ -1,0 +1,7 @@
+---
+
+- hosts: dev
+  sudo: yes
+  roles:
+    - { role: debops.apt }
+
